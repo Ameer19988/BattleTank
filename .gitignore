@@ -98,3 +98,6 @@ cmake-build-debug
 
 #Audio Folder
 Content/Audio
+
+!Content/
+!intermediate/Build/
