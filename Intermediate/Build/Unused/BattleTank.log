@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\ProjectFiles\BattleTank.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\ProjectFiles\UE4.vcxproj]
+  Compiling game modules for hot reload
+  Parsing headers for BattleTankEditor
+    Running UnrealHeaderTool "C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\BattleTank.uproject" "C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BattleTankEditor in 9.615982 seconds
+  Performing 5 actions (2 in parallel)
+  Tank.cpp
+  TankPlayerController.cpp
+  TankPlayerController.gen.cpp
+  [4/5] Link UE4Editor-BattleTank-9657.dll
+  [5/5] Link UE4Editor-BattleTank-9657.lib
+     Creating library C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-9657.lib and object C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-9657.exp
+     Creating library C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-9657.suppressed.lib and object C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-9657.suppressed.exp
+  Deploying BattleTankEditor Win64 Development...
+  Total build time: 19.46 seconds (Local executor: 2.87 seconds)
