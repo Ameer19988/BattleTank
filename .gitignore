@@ -100,4 +100,4 @@ cmake-build-debug
 Content/Audio
 
 !Content/
-!intermediate/Build/
+!Intermediate/Build/
