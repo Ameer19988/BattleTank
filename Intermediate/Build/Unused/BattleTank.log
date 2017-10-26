@@ -1,12 +1,13 @@
 ﻿  Compiling game modules for hot reload
   Parsing headers for BattleTankEditor
     Running UnrealHeaderTool "C:\Users\timro_000\source\repos\BattleTank\BattleTank.uproject" "C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BattleTankEditor in 8.0222846 seconds
-  Performing 3 actions (2 in parallel)
-  TankAIController.cpp
-  [2/3] Link UE4Editor-BattleTank-4340.dll
-  [3/3] Link UE4Editor-BattleTank-4340.lib
-     Creating library C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-4340.lib and object C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-4340.exp
-     Creating library C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-4340.suppressed.lib and object C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-4340.suppressed.exp
+  Reflection code generated for BattleTankEditor in 7.7607897 seconds
+  Performing 4 actions (2 in parallel)
+  TankPlayerController.gen.cpp
+  TankPlayerController.cpp
+  [3/4] Link UE4Editor-BattleTank-109.dll
+  [4/4] Link UE4Editor-BattleTank-109.lib
+     Creating library C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-109.lib and object C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-109.exp
+     Creating library C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-109.suppressed.lib and object C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-109.suppressed.exp
   Deploying BattleTankEditor Win64 Development...
-  Total build time: 15.18 seconds (Local executor: 2.96 seconds)
+  Total build time: 14.28 seconds (Local executor: 2.32 seconds)
