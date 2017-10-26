@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source"
-/I C:\Users\timro_000\source\repos\BattleTank\Source
-/I C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank
-/I C:\Users\timro_000\source\repos\BattleTank\Source\BattleTank
+/I C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Source
+/I C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank
+/I C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Source\BattleTank
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Async"
@@ -356,9 +356,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\timro_000\source\repos\BattleTank\Source\BattleTank\TankPlayerController.cpp"
-/FI"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h"
-/Fo"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankPlayerController.cpp.obj"
+"C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Source\BattleTank\TankPlayerController.cpp"
+/FI"C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h"
+/Fo"C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankPlayerController.cpp.obj"
 /TP
 /GR-
 /W4
