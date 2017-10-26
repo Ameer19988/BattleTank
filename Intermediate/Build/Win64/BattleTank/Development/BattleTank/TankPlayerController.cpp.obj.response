@@ -191,9 +191,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\timro_000\source\repos\BattleTank\Source\BattleTank\BattleTank.cpp"
+"C:\Users\timro_000\source\repos\BattleTank\Source\BattleTank\TankPlayerController.cpp"
 /FI"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTank\Development\BattleTank\Definitions.BattleTank.h"
-/Fo"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTank\Development\BattleTank\BattleTank.cpp.obj"
+/Fo"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTank\Development\BattleTank\TankPlayerController.cpp.obj"
 /TP
 /GR-
 /W4

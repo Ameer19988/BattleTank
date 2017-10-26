@@ -12,7 +12,6 @@
 /Ot
 /Ob2
 /errorReport:prompt
-/Z7
 /MD
 /bigobj
 /fp:fast
@@ -188,12 +187,13 @@
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4\Inc\AudioMixer"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\AudioMixer"
 /D_HAS_EXCEPTIONS=0
+/D_HAS_EXCEPTIONS=0
 /FI"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\timro_000\source\repos\BattleTank\Source\BattleTank\BattleTank.cpp"
+"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\UE4\Inc\BattleTank\Tank.gen.cpp"
 /FI"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTank\Development\BattleTank\Definitions.BattleTank.h"
-/Fo"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTank\Development\BattleTank\BattleTank.cpp.obj"
+/Fo"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTank\Development\BattleTank\Tank.gen.cpp.obj"
 /TP
 /GR-
 /W4

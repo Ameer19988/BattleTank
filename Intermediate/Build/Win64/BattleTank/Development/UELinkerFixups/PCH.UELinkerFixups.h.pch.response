@@ -23,11 +23,11 @@
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source"
 /D_HAS_EXCEPTIONS=0
-/I C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\BattleTank\Development\UELinkerFixups
-/Yc"C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\BattleTank\Development\UELinkerFixups\PCH.UELinkerFixups.h"
-/Fp"C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\BattleTank\Development\UELinkerFixups\PCH.UELinkerFixups.h.pch"
-"C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\BattleTank\Development\UELinkerFixups\PCH.UELinkerFixups.cpp"
-/Fo"C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\BattleTank\Development\UELinkerFixups\PCH.UELinkerFixups.h.obj"
+/I C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTank\Development\UELinkerFixups
+/Yc"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTank\Development\UELinkerFixups\PCH.UELinkerFixups.h"
+/Fp"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTank\Development\UELinkerFixups\PCH.UELinkerFixups.h.pch"
+"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTank\Development\UELinkerFixups\PCH.UELinkerFixups.cpp"
+/Fo"C:\Users\timro_000\source\repos\BattleTank\Intermediate\Build\Win64\BattleTank\Development\UELinkerFixups\PCH.UELinkerFixups.h.obj"
 /TP
 /GR-
 /W4

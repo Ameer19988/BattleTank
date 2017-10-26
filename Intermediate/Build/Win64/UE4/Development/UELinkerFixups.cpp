@@ -105,7 +105,7 @@
 	#define UE_BUILD_DEVELOPMENT 1
 #endif
 #ifndef UE_ENGINE_DIRECTORY
-	#define UE_ENGINE_DIRECTORY ../../../../../../../../../Program Files/Epic Games/UE_4.17/Engine/
+	#define UE_ENGINE_DIRECTORY ../../../../../../../Program Files/Epic Games/UE_4.17/Engine/
 #endif
 #ifndef UE_IS_ENGINE_MODULE
 	#define UE_IS_ENGINE_MODULE 0
@@ -4090,6 +4090,12 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodeBattleTank_init();
     extern void EmptyLinkFunctionForGeneratedCodeBattleTankGameModeBase();
     EmptyLinkFunctionForGeneratedCodeBattleTankGameModeBase();
+    extern void EmptyLinkFunctionForGeneratedCodeTank();
+    EmptyLinkFunctionForGeneratedCodeTank();
+    extern void EmptyLinkFunctionForGeneratedCodeTankAIController();
+    EmptyLinkFunctionForGeneratedCodeTankAIController();
+    extern void EmptyLinkFunctionForGeneratedCodeTankPlayerController();
+    EmptyLinkFunctionForGeneratedCodeTankPlayerController();
     extern void EmptyLinkFunctionForGeneratedCodeSlateReflector_init();
     EmptyLinkFunctionForGeneratedCodeSlateReflector_init();
     extern void EmptyLinkFunctionForGeneratedCodeWidgetSnapshotMessages();
