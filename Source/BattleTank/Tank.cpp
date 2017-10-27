@@ -17,7 +17,11 @@ ATank::ATank()
 void ATank::BeginPlay()
 {
 	Super::BeginPlay();
-	
+}
+
+void ATank::SetBarrelReference(UStaticMeshComponent* BarrelToSet)
+{
+	TankAimingComponent->SetBarrelReference(BarrelToSet);
 }
 
 // Called every frame
