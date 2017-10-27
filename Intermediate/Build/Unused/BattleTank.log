@@ -1,13 +1,12 @@
 ﻿  Compiling game modules for hot reload
   Parsing headers for BattleTankEditor
     Running UnrealHeaderTool "C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\BattleTank.uproject" "C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BattleTankEditor in 9.6941078 seconds
-  Performing 4 actions (2 in parallel)
+  Reflection code generated for BattleTankEditor in 10.8186464 seconds
+  Performing 3 actions (2 in parallel)
   TankPlayerController.cpp
-  TankPlayerController.gen.cpp
-  [3/4] Link UE4Editor-BattleTank-9688.dll
-  [4/4] Link UE4Editor-BattleTank-9688.lib
-     Creating library C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-9688.lib and object C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-9688.exp
-     Creating library C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-9688.suppressed.lib and object C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-9688.suppressed.exp
+  [2/3] Link UE4Editor-BattleTank-4294.dll
+  [3/3] Link UE4Editor-BattleTank-4294.lib
+     Creating library C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-4294.lib and object C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-4294.exp
+     Creating library C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-4294.suppressed.lib and object C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-4294.suppressed.exp
   Deploying BattleTankEditor Win64 Development...
-  Total build time: 19.73 seconds (Local executor: 3.30 seconds)
+  Total build time: 19.95 seconds (Local executor: 2.64 seconds)
