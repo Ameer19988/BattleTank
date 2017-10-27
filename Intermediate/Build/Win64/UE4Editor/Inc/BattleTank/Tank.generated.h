@@ -82,7 +82,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATank); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATank)
 
 
-#define BattleTank_Source_BattleTank_Tank_h_13_PRIVATE_PROPERTY_OFFSET
+#define BattleTank_Source_BattleTank_Tank_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(ATank, LaunchSpeed); }
+
+
 #define BattleTank_Source_BattleTank_Tank_h_10_PROLOG
 #define BattleTank_Source_BattleTank_Tank_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
