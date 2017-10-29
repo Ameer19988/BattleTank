@@ -16,7 +16,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 // Cross Module References
 	BATTLETANK_API UFunction* Z_Construct_UFunction_ATank_SetBarrelReference();
 	BATTLETANK_API UClass* Z_Construct_UClass_ATank();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	BATTLETANK_API UClass* Z_Construct_UClass_UTankBarrel_NoRegister();
 	BATTLETANK_API UClass* Z_Construct_UClass_ATank_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_BattleTank();
@@ -33,14 +33,14 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	{
 		struct Tank_eventSetBarrelReference_Parms
 		{
-			UStaticMeshComponent* BarrelToSet;
+			UTankBarrel* BarrelToSet;
 		};
 		UObject* Outer = Z_Construct_UClass_ATank();
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
 			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("SetBarrelReference"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x04020401, 65535, sizeof(Tank_eventSetBarrelReference_Parms));
-			UProperty* NewProp_BarrelToSet = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("BarrelToSet"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BarrelToSet, Tank_eventSetBarrelReference_Parms), 0x0010000000080080, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
+			UProperty* NewProp_BarrelToSet = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("BarrelToSet"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BarrelToSet, Tank_eventSetBarrelReference_Parms), 0x0010000000080080, Z_Construct_UClass_UTankBarrel_NoRegister());
 			ReturnFunction->Bind();
 			ReturnFunction->StaticLink();
 #if WITH_METADATA
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 				OuterClass->LinkChild(Z_Construct_UFunction_ATank_SetBarrelReference());
 
 				UProperty* NewProp_LaunchSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("LaunchSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(LaunchSpeed, ATank), 0x0040000000000001);
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_ATank_SetBarrelReference(), "SetBarrelReference"); // 3418305761
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_ATank_SetBarrelReference(), "SetBarrelReference"); // 1047432717
 				static TCppClassTypeInfo<TCppClassTypeTraits<ATank> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -81,6 +81,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Tank.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Tank.h"));
+				MetaData->SetValue(OuterClass, TEXT("ToolTip"), TEXT("forward declaration"));
 				MetaData->SetValue(NewProp_LaunchSpeed, TEXT("Category"), TEXT("Firing"));
 				MetaData->SetValue(NewProp_LaunchSpeed, TEXT("ModuleRelativePath"), TEXT("Tank.h"));
 #endif
@@ -89,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATank, 3988620164);
+	IMPLEMENT_CLASS(ATank, 1323780941);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATank(Z_Construct_UClass_ATank, &ATank::StaticClass, TEXT("/Script/BattleTank"), TEXT("ATank"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATank);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
