@@ -1,20 +1,29 @@
 ﻿  Compiling game modules for hot reload
+  Performing full C++ include scan (no include cache file)
   Parsing headers for BattleTankEditor
     Running UnrealHeaderTool "C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\BattleTank.uproject" "C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BattleTankEditor in 15.4766269 seconds
-  Performing 10 actions (2 in parallel)
+  Reflection code generated for BattleTankEditor in 10.4104727 seconds
+  Performing 19 actions (2 in parallel)
+  [2/19] Resource PCLaunch.rc
+  SharedPCH.Engine.cpp
+  [3/19] Resource ModuleVersionResource.rc.inl
+  BattleTank.init.gen.cpp
+  BattleTank.cpp
+  BattleTankGameModeBase.cpp
   Tank.cpp
   TankAIController.cpp
   TankAimingComponent.cpp
-C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Source\BattleTank\TankAimingComponent.cpp(61): error C2039: 'ToString': is not a member of 'FString'
-  C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h(9): note: see declaration of 'FString'
-C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Source\BattleTank\TankAimingComponent.cpp(62): error C3536: 'TankName': cannot be used before it is initialized
-C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Source\BattleTank\TankAimingComponent.cpp(62): error C2100: illegal indirection
   TankPlayerController.cpp
+  TankBarrel.cpp
+  BattleTankGameModeBase.gen.cpp
   Tank.gen.cpp
   TankAIController.gen.cpp
   TankAimingComponent.gen.cpp
+  TankBarrel.gen.cpp
   TankPlayerController.gen.cpp
-ERROR : UBT error : Failed to produce item: C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Binaries\Win64\UE4Editor-BattleTank-3319.dll
-  Total build time: 178.07 seconds (Local executor: 0.00 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" BattleTankEditor Win64 Development "C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\BattleTank.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.
+  [18/19] Link UE4Editor-BattleTank-5819.dll
+  [19/19] Link UE4Editor-BattleTank-5819.lib
+     Creating library C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-5819.lib and object C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-5819.exp
+     Creating library C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-5819.suppressed.lib and object C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-5819.suppressed.exp
+  Deploying BattleTankEditor Win64 Development...
+  Total build time: 134.52 seconds (Local executor: 115.12 seconds)
