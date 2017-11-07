@@ -1,2 +1,8 @@
-﻿  Cleaning BattleTankEditor Binaries...
-  Compiling game modules for hot reload
+﻿  Compiling game modules for hot reload
+  Parsing headers for BattleTankEditor
+    Running UnrealHeaderTool "C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\BattleTank.uproject" "C:\Users\Temo\source\repos\UnrealEngineCourse\Section_04\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BattleTankEditor in 14.9854016 seconds
+  Performing 7 actions (2 in parallel)
+  BattleTank.init.gen.cpp
+  Tank.gen.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): warning MSB5021: "cmd" and its child processes are being terminated in order to cancel the build.
