@@ -22,4 +22,9 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+
+private:
+	// How close can the AI tank get to the player
+	UPROPERTY(EditDefaultsOnly, Category = Setup)
+	float AcceptanceRadius = 3000;
 };

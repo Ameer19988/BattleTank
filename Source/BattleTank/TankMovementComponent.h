@@ -7,6 +7,7 @@
 #include "TankMovementComponent.generated.h"
 
 class UTankTrack;
+class UNavMovementComponent;
 /**
  * Responsible for driving the tank tracks
  */
@@ -24,6 +25,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = Input)
 	void IntendTurnRight(float Throw);
+
+	// TODO Check the best protection
+	virtual void RequestDirectMove(const FVector& MoveVelocity, bool bForceMaxSpeed) override;
 
 private:
 	UTankTrack* LeftTrack = nullptr;
