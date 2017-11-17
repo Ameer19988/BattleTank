@@ -22,6 +22,8 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+	UFUNCTION(BlueprintCallable, Category = "Setup")
+	ATank* GetControlledTank() const;
 
 private:
 	UPROPERTY(EditDefaultsOnly)
@@ -32,8 +34,6 @@ private:
 
 	UPROPERTY(EditDefaultsOnly)
 	float LineTraceRange = 1000000.0f;
-
-	ATank* GetControlledTank() const;
 
 	/*
 	Start the Tank moving the barrel so that a shot would hit where
