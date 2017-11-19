@@ -46,6 +46,8 @@ private:
 
 	virtual void BeginPlay() override;
 
+	bool IsBarrelMoving();
+
 	// Sets default values for this component's properties
 	UTankAimingComponent();
 
@@ -62,4 +64,6 @@ private:
 	float ReloadTimeInSeconds = 3.0;
 
 	double LastFireTime = 0.0;
+
+	FVector AimDirection;
 };
