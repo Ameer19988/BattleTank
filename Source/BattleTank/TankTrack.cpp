@@ -24,7 +24,7 @@ void UTankTrack::OnHit(UPrimitiveComponent *HitComponent,
 	// Apply sideways force
 	ApplySidewaysForce();
 	// Reset Throttle
-	CurrentThrottle = 0;
+	CurrentThrottle = 0.0;
 }
 
 void UTankTrack::SetThrottle(float Throttle)
