@@ -62,10 +62,10 @@ private:
 	TSubclassOf<AProjectile> ProjecileBlueprint;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Firing")
-	float LaunchSpeed = 4000.0;
+	float LaunchSpeed = 4000.0f;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Firing")
-	float ReloadTimeInSeconds = 3.0;
+	float ReloadTimeInSeconds = 3.0f;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Firing")
 	int32 RoundsLeft = 3;

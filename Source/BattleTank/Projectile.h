@@ -39,6 +39,15 @@ private:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	UParticleSystemComponent* ImpactBlast = nullptr;
 
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+	URadialForceComponent* ExplosionForce = nullptr;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	float DestroyDelay = 10.0f;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	float ProjectileDamage = 20.0f;
+
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent *HitComponent,
 		AActor *OtherActor,
@@ -46,11 +55,5 @@ private:
 		FVector NormalImpulse,
 		const FHitResult &Hit);
 
-	UPROPERTY(VisibleAnywhere, Category = "Components")
-	URadialForceComponent* ExplosionForce = nullptr;
-
 	void OnTimerExpire();
-
-	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float DestroyDelay = 10.0;
 };
