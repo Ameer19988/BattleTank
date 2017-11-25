@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Projectile.h"
-
+#include "TimerManager.h"
+#include "GameFramework/Actor.h"
 
 // Sets default values
 AProjectile::AProjectile()
@@ -51,4 +52,18 @@ void AProjectile::OnHit(UPrimitiveComponent *HitComponent,
 	LaunchBlast->Deactivate();
 	ImpactBlast->Activate();
 	ExplosionForce->FireImpulse();
+
+	SetRootComponent(ImpactBlast);
+	CollisionMesh->DestroyComponent();
+
+	FTimerHandle TimerHandle;
+	GetWorld()->GetTimerManager().SetTimer
+	(
+		TimerHandle, this, &AProjectile::OnTimerExpire, DestroyDelay, false
+	);
+}
+
+void AProjectile::OnTimerExpire()
+{
+	Destroy();
 }
