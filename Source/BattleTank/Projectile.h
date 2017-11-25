@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "PhysicsEngine/RadialForceComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "Engine/World.h"
 #include "GameFramework/ProjectileMovementComponent.h"
@@ -43,4 +44,7 @@ private:
 		UPrimitiveComponent *OtherComponent,
 		FVector NormalImpulse,
 		const FHitResult &Hit);
+
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+	URadialForceComponent* ExplosionForce = nullptr;
 };
