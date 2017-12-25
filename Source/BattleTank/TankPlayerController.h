@@ -36,6 +36,11 @@ private:
 	UPROPERTY(EditDefaultsOnly)
 	float LineTraceRange = 1000000.0f;
 
+	UFUNCTION()
+	void OnPossessedTankDeath();
+
+	virtual void SetPawn(APawn* InPawn) override;
+
 	/*
 	Start the Tank moving the barrel so that a shot would hit where
 	the crosshair intersects the world
